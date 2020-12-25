@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RtVariables</key>
+	<dict>
+		<key>MLB</key>
+		<string>C02816403GUJG36CB</string>
+		<key>ROM</key>
+		<data>A5OW1j6C</data>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>01/05/2020</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IMP11.88Z.F000.B00.2001052056</string>
+		<key>Board-ID</key>
+		<string>Mac-7BA5B2D9E42DDD94</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02816403GUJG36CB</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>iMacPro-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>1037.80.41.0.0</string>
+		<key>Family</key>
+		<string>iMac Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFD8FF53F</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF9FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x00</string>
+		<key>ProductName</key>
+		<string>iMacPro1,1</string>
+		<key>SerialNumber</key>
+		<string>C02WLNYKHX87</string>
+		<key>SmUUID</key>
+		<string>D3458B64-19B4-4FF9-A878-C7FED5D63E82</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>CustomUUID</key>
+		<string>CE71F51C-467F-46B3-9A7B-0680AA51E34A</string>
+	</dict>
+</dict>
+</plist>
