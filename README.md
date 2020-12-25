@@ -1,5 +1,7 @@
 # 1. OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.15.3 - 11.1)
 
+Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
+
 基于 [mikigal/ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh) 的 efi 修改制作
 
 ## 1.1. 配置
