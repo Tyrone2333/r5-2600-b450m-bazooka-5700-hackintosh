@@ -21,6 +21,7 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 - iMessage、iCloud
 - 板载声卡声音输出
 - 有线网络(因为显卡太胖挡住插槽,所以退了无线网卡)
+- Xcode & iOS Simulator
 
 ## 1.3. 不可用
 
