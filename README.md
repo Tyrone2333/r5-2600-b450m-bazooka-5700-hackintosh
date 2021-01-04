@@ -115,3 +115,11 @@ windows cmd
 ```bash
 certutil -hashfile  '.\macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and WEPE.dmg'  MD5
 ```
+
+## 一键开启 macOS HiDPI
+
+先把 NVRAM -> UIScale 修改为 Ag==(Data 类型,值 02)
+
+
+https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md
+
