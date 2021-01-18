@@ -4,10 +4,11 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 
 基于 [mikigal/ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh) 的 efi 修改制作
 
-## 20210118 修改
+## 1.1. 修改 20210118
+
 显卡 5700 卖了,换成 RX 560,唯一需要改的是 `boot-args` 去掉 `agdpmod=pikera`
 
-## 1.1. 配置
+## 1.2. 配置
 
 ```
 处理器              AMD Ryzen 5 2600 六核
@@ -20,7 +21,7 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 无线网卡             Fenvi T919 (BCM94360CD)
 ```
 
-## 1.2. 可用
+## 1.3. 可用
 
 - iMessage、iCloud
 - 板载声卡声音输出
@@ -28,7 +29,7 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 - 有线网络
 - Xcode & iOS Simulator
 
-## 1.3. 不可用
+## 1.4. 不可用
 
 暂无
 
@@ -113,18 +114,23 @@ sudo spctl --master-disable
 
 ```
 
-## 4.3. 计算 md5
+## 4.3. 一键开启 macOS HiDPI
+
+先把 NVRAM -> UIScale 修改为 Ag==(Data 类型,值 02)
+
+https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md
+
+## 4.4. 触发角
+
+打开「系统偏好设置」-「桌面与屏幕保护程序」-「屏幕保护程序」，选择「触发角」就可以进入设置页面了。
+
+屏幕右上角是调度中心，鼠标向右上一甩就是全部桌面和和窗口，想要把窗口或者文件从一个桌面拖到另一个桌面，也只需要按住窗口，甩到右上角就好。
+屏幕右下角是显示桌面，这个和 Win 逻辑一样，习惯了。拖动文件或者网页图片，也只需要向右下角一甩就好。
+
+## 4.5. 计算 md5
 
 windows cmd
 
 ```bash
 certutil -hashfile  '.\macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and WEPE.dmg'  MD5
 ```
-
-## 一键开启 macOS HiDPI
-
-先把 NVRAM -> UIScale 修改为 Ag==(Data 类型,值 02)
-
-
-https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md
-
