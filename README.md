@@ -4,23 +4,28 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 
 基于 [mikigal/ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh) 的 efi 修改制作
 
+## 20210118 修改
+显卡 5700 卖了,换成 RX 560,唯一需要改的是 `boot-args` 去掉 `agdpmod=pikera`
+
 ## 1.1. 配置
 
 ```
 处理器              AMD Ryzen 5 2600 六核
 主板                微星 B450M BAZOOKA PLUS (MS-7B90) ( LPC Controller B450芯片组 )
-显卡                AMD Radeon RX 5700 ( 8 GB / 蓝宝石 )
+显卡                AMD RX 560
 内存                32 GB ( GLOWAY DDR4 2666MHz )
 主硬盘               HS-SSD-C2000Pro 512G ( 512 GB / 固态硬盘 )
 声卡                瑞昱 ALC892 @ AMD High Definition Audio 控制器
 网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 微星
+无线网卡             Fenvi T919 (BCM94360CD)
 ```
 
 ## 1.2. 可用
 
 - iMessage、iCloud
 - 板载声卡声音输出
-- 有线网络(因为显卡太胖挡住插槽,所以退了无线网卡)
+- 隔空投送,随航接力
+- 有线网络
 - Xcode & iOS Simulator
 
 ## 1.3. 不可用
