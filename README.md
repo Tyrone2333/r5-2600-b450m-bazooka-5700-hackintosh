@@ -1,4 +1,4 @@
-# 1. OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.15.3 - 11.1)
+# 1. OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.15.3 - 11.2)
 
 Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 
