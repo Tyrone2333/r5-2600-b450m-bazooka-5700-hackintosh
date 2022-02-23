@@ -97,9 +97,9 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x5,0x0)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>build-in</key>
+				<key>built-in</key>
 				<data>AQ==</data>
 			</dict>
 		</dict>
@@ -997,11 +997,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02746207J9JG361M</string>
+			<string>C02707609QXJG36CB</string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>VSJEiHdm</data>
+			<data>AACsrQ0OAA4AANAAAAAABQ==</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1009,9 +1009,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VP09ZHX87</string>
+			<string>C02T80VKHX87</string>
 			<key>SystemUUID</key>
-			<string>A40C9FF6-E904-46E1-8AF5-24DEE8AADC13</string>
+			<string>158BA176-57E7-4BD1-9CE3-D4404ABF97CF</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
