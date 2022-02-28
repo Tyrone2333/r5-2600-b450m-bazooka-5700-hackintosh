@@ -6,14 +6,14 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 
 ## 1.1. 修改 20210118
 
-显卡 5700 卖了,换成 RX 560,唯一需要改的是 `boot-args` 去掉 `agdpmod=pikera`
+显卡 5700 卖了,换成 RX 580,唯一需要改的是 `boot-args` 去掉 `agdpmod=pikera`
 
 ## 1.2. 配置
 
 ```
 处理器              AMD Ryzen 5 2600 六核
 主板                微星 B450M BAZOOKA PLUS (MS-7B90) ( LPC Controller B450芯片组 )
-显卡                AMD RX 560
+显卡                AMD RX 580
 内存                32 GB ( GLOWAY DDR4 2666MHz )
 主硬盘               HS-SSD-C2000Pro 512G ( 512 GB / 固态硬盘 )
 声卡                瑞昱 ALC892 @ AMD High Definition Audio 控制器
@@ -134,3 +134,6 @@ windows cmd
 ```bash
 certutil -hashfile  '.\macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and WEPE.dmg'  MD5
 ```
+
+
+![C2D13419-850F-43F5-A9AF-3F1DB3F011C5](https://user-images.githubusercontent.com/24988691/155993214-78894770-144c-4b85-b5f2-b6ed56a9c3fb.png)
