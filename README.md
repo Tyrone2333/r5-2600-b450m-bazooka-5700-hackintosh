@@ -104,10 +104,19 @@ bios 进入 设置 -> 高级 -> 超级 io
 
 ### 3.6.1. 开启啰嗦模式
 
+`boot-args` 添加 `-v`
+
 ### 3.6.2. agdpmod=pikera
 
 用于禁用 Navi gpu（RX 5000 系列）上的 boardID，否则会出现黑屏。如果您没有 Navi，请不要使用（即 Polaris 和 Vega 卡不应使用此功能）
 
+## 3.7. 开机出现 OCS: Failed to parse data field as value with type mdata and <XXXXX> contents, context <ROM>!
+![G{H((KRB$14KH)A7GY3`AGC](https://user-images.githubusercontent.com/24988691/157383051-7468bdd5-0b88-43fc-9158-a7b5d5213f54.png)
+
+下载 [SMBIOS](https://github.com/corpnewt/GenSMBIOS) 工具,选择 `Generate SMBIOS`, 型号输入 `iMacPro1,1`, 复制生成的 ROM
+      
+网上搜索需要用自己的 MAC 地址,但我试了下随便生成一个也能用✌
+      
 # 4. 跑分参考
 
 单核 978 多核 5196
