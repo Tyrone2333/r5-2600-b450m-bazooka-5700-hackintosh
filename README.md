@@ -19,7 +19,7 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 对照表格按照自己CPU线程数找到一个数值
 
 1. 用 ProperTree 打开 config.plist, 在 `Kernel -> Patch` 下找到三个 algrey - Force cpuid_cores_per_package
-2. 分别修改三条中 Replace 数值的第一个 `00` , 例如我是 2600 6核12线程, 那么我的数值就是 `0C`
+2. 分别修改三条中 Replace 数值的第一个 `00` , 例如我的 r5 2600 是6核12线程, 那么数值就改为 `0C`
       - B8 **00** 0000 0000 -> B8 **0C** 0000 0000
       - BA **00** 0000 0000 -> BA **0C** 0000 0000
       - BA **00** 0000 0090 -> BA **0C** 0000 0090
