@@ -160,7 +160,15 @@ windows cmd
 ```bash
 certutil -hashfile  '.\macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and WEPE.dmg'  MD5
 ```
+## 5.6. 如何在Mac上查看隐藏文件
 
+显示隐藏文件
+      
+`defaults write com.apple.finder AppleShowAllFiles -boolean true;killall Finder`
+
+再次隐藏文件
+      
+`defaults write com.apple.finder AppleShowAllFiles -boolean false;killall Finder`
 
 # 6. 截图
 ![C2D13419-850F-43F5-A9AF-3F1DB3F011C5](https://user-images.githubusercontent.com/24988691/155993214-78894770-144c-4b85-b5f2-b6ed56a9c3fb.png)
