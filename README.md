@@ -30,16 +30,18 @@ Hackintosh EFI for MSI B450M BAZOOKA PLUS + R5 2600 + RX 5700
 
 ## 2.3. 配置
 
-```
-处理器              AMD Ryzen 5 2600 六核
-主板                微星 B450M BAZOOKA PLUS (MS-7B90) ( LPC Controller B450芯片组 )
-显卡                AMD RX 580
-内存                32 GB ( GLOWAY DDR4 2666MHz )
-主硬盘              HS-SSD-C2000Pro 512G ( 512 GB / 固态硬盘 )
-声卡                瑞昱 ALC892 @ AMD High Definition Audio 控制器
-网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 微星
-无线网卡            Fenvi T919 (BCM94360CD)
-```
+| 部件     | 规格                                                         |
+|----------|--------------------------------------------------------------|
+| 处理器   | AMD Ryzen 5 2600 六核                                         |
+| 主板     | 微星 B450M BAZOOKA PLUS (MS-7B90) (LPC Controller B450芯片组)   |
+| 显卡     | AMD RX 580                                                   |
+| 内存     | 32 GB (GLOWAY DDR4 2666MHz)                                   |
+| 主硬盘   | HS-SSD-C2000Pro 512G (512 GB / 固态硬盘)                       |
+| 声卡     | 瑞昱 ALC892 @ AMD High Definition Audio 控制器                 |
+| 网卡     | 瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 微星      |
+| 无线网卡 | Fenvi T919 (BCM94360CD)                                       |
+
+
 
 ## 2.4. 可用
 
